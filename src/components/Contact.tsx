@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Mail, MapPin, Facebook, Instagram, Linkedin, Github } from 'lucide-react'; // Add Github
 
 const Contact: React.FC = () => {
   return (
@@ -21,19 +21,19 @@ const Contact: React.FC = () => {
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold mb-6">Connect with Me</h3>
             <div className="grid grid-cols-2 gap-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-500 transition">
+              <a href="https://www.facebook.com/profile.php?id=61566960759688" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-500 transition">
                 <Facebook size={24} className="mr-2" />
                 <span>Facebook</span>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-400 transition">
-                <Twitter size={24} className="mr-2" />
-                <span>Twitter</span>
+              <a href="https://www.threads.net/@sieyam3d_" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-400 transition">
+                <Github size={24} className="mr-2" />
+                <span>Github</span>
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-pink-500 transition">
+              <a href="https://www.instagram.com/sieyam3d_/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-pink-500 transition">
                 <Instagram size={24} className="mr-2" />
                 <span>Instagram</span>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-700 transition">
+              <a href="https://www.linkedin.com/in/abdul-ghaffar-blender-expert-020822229/" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-700 transition">
                 <Linkedin size={24} className="mr-2" />
                 <span>LinkedIn</span>
               </a>
