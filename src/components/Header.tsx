@@ -15,6 +15,7 @@ const Header: React.FC = () => {
           <a href="#about" className="hover:text-blue-400 transition">About</a>
           <a href="#services" className="hover:text-blue-400 transition">Services</a>
           <a href="#projects" className="hover:text-blue-400 transition">Projects</a>
+          <a href="#skills" className="hover:text-blue-400 transition">Skills</a>
           <a href="#contact" className="hover:text-blue-400 transition">Contact</a>
         </nav>
         <button className="md:hidden" onClick={toggleMenu}>
@@ -28,6 +29,7 @@ const Header: React.FC = () => {
             <a href="#about" className="hover:text-blue-400 transition" onClick={toggleMenu}>About</a>
             <a href="#services" className="hover:text-blue-400 transition" onClick={toggleMenu}>Services</a>
             <a href="#projects" className="hover:text-blue-400 transition" onClick={toggleMenu}>Projects</a>
+            <a href="#skills" className="hover:text-blue-400 transition">Skills</a>
             <a href="#contact" className="hover:text-blue-400 transition" onClick={toggleMenu}>Contact</a>
           </div>
         </nav>
