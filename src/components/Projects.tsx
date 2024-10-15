@@ -5,6 +5,10 @@ import 'slick-carousel/slick/slick-theme.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import './Projects.css';
 import proj1Image from '../assets/images/proj_1_glassy.png';
+import proj2Image from '../assets/images/proj_2_2d.png';
+import proj3Image from '../assets/images/proj_3_milky-bottle.png';
+import proj4Image from '../assets/images/proj_4_perfume.png';
+import proj5Image from '../assets/images/proj_5_jell.png';
 
 interface Project {
   id: number;
@@ -26,28 +30,28 @@ const projects: Project[] = [
     id: 2,
     title: "3D Character Animation",
     description: "A fully animated 3D character.",
-    imageUrl: "src/assets/images/proj_2_2d.png",
+    imageUrl: proj2Image,
     githubUrl: "https://github.com/sieyam/3d-charactor-animation"
   },
   {
     id: 3,
     title: "Product Visualization",
     description: "Photorealistic render of a new fresh milky bottle.",
-    imageUrl: "src/assets/images/proj_3_milky-bottle.png",
+    imageUrl: proj3Image,
     githubUrl: "https://github.com/sieyam/milky-bottle"
   },
   {
     id: 4,
     title: "3D Product Modeling",
     description: "Valentino Uomo 2021 photorealistic render.",
-    imageUrl: "src/assets/images/proj_4_perfume.png",
+    imageUrl: proj4Image,
     githubUrl: "https://github.com/sieyam/valentino-uomo-2021"
   },
   {
     id: 5,
     title: "Label Texturing & UV Wrapping",
     description: "Alo vera Gel Bottle realistic presentation.",
-    imageUrl: "src/assets/images/proj_5_jell.png",
+    imageUrl: proj5Image,
     githubUrl: "https://github.com/sieyam/alovera-gel-bottle"
   }
 ];
