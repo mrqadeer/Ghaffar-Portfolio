@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
             </div>
             <div className="flex items-center mb-4">
               <MapPin className="mr-4 text-blue-500" />
-              <span>Pakistan,Punjab, Mianwali</span>
+              <span>Mianwali,Punjab, Pakistan</span>
             </div>
           </div>
           <div className="md:w-1/2">
@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
                 <Facebook size={24} className="mr-2" />
                 <span>Facebook</span>
               </a>
-              <a href="https://www.threads.net/@sieyam3d_" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-400 transition">
+              <a href="https://www.github.com/sieyam" target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-400 hover:text-blue-400 transition">
                 <Github size={24} className="mr-2" />
                 <span>Github</span>
               </a>

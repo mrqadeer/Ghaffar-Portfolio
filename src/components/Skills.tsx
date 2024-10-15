@@ -42,16 +42,6 @@ const skills: Skill[] = [
     icon: <Box size={40} />,
     name: "2D to 3D Conversion",
     description: "Transform 2D designs into 3D models"
-  },
-  {
-    icon: <Code size={40} />,
-    name: "JS Placement",
-    description: "Implement JavaScript solutions for web projects"
-  },
-  {
-    icon: <CreditCard size={40} />,
-    name: "fspay",
-    description: "Handle financial transactions and payment systems"
   }
 ];
 
