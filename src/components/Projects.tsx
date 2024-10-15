@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import './Projects.css';
-
+import proj1Image from '../assets/images/proj_1_glassy.png';
 
 interface Project {
   id: number;
@@ -19,7 +19,7 @@ const projects: Project[] = [
     id: 1,
     title: "Indoor Lightining HDRI-Render",
     description: "Whisky Sweatness non-alcoholic cyclic render",
-    imageUrl: "src/assets/images/proj_1_glassy.png",
+    imageUrl: proj1Image,
     githubUrl: "https://github.com/sieyam3d/indoor-lighting-hdri-render"
   },
   {
