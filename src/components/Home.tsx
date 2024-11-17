@@ -163,7 +163,7 @@ const Home: React.FC = () => {
   <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-3 rounded-full font-semibold inline-flex items-center hover:from-purple-600 hover:to-blue-600 hover:shadow-lg hover:shadow-purple-500/50 transition duration-300 transform hover:-translate-y-1" onClick={() => setShowPopup(true)}>
     About Me
   </button>
-  <a href="/Qadeer Ahmad.pdf" download="public/Qadeer Ahmad.pdf" className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-3 rounded-full font-semibold inline-flex items-center hover:from-purple-600 hover:to-blue-600 hover:shadow-lg hover:shadow-purple-500/50 transition duration-300 transform hover:-translate-y-1">
+  <a href="Resume.pdf" download="public/Resume.pdf" className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-3 rounded-full font-semibold inline-flex items-center hover:from-purple-600 hover:to-blue-600 hover:shadow-lg hover:shadow-purple-500/50 transition duration-300 transform hover:-translate-y-1">
     Download CV
   </a>
   <a href="https://www.fiverr.com/ghaffarsieyam/buying?source=avatar_menu_profile" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-3 rounded-full font-semibold inline-flex items-center hover:from-purple-600 hover:to-blue-600 hover:shadow-lg hover:shadow-purple-500/50 transition duration-300 transform hover:-translate-y-1">
