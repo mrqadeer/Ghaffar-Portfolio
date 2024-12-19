@@ -125,7 +125,7 @@ const Header: React.FC = () => {
             </button>
           ))}
         </nav>
-        <button 
+        {/* <button 
           className="md:hidden z-50 transition-transform duration-300 ease-in-out hover:scale-110" 
           onClick={toggleMenu}
         >
@@ -134,7 +134,7 @@ const Header: React.FC = () => {
           ) : (
             <Menu className="h-6 w-6 text-white transform transition-transform duration-300" />
           )}
-        </button>
+        </button> */}
       </div>
     </header>
   );
